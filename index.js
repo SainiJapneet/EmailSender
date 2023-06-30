@@ -12,7 +12,7 @@ const mailInfo = {
     from: 'dummy_mail@gmail.com',
     to: 'dummy_receiver@gmail.com',
     subject: 'Testing mail',
-    text: '... :-)'
+    text: 'Email Body'
 };
 
 cred.sendMail(
