@@ -62,3 +62,12 @@ Save the index.js file.
 In the terminal, run the following command to start the script: node index.js
 
 The script will send the email using the provided credentials and email information.
+
+##Note
+
+1. If you have 2FA enabled on your Gmail account you need to use generate app-specific passwords.
+2. Go to the manage account section of your Gmail account.
+3. Open the Security section.
+4. Find the App passwords section or find it from the search bar above.
+5. In Select the app and device you want to generate the app password for. select other option from dropdown and give a name to it.
+6. A password will get generated and use it as password in the index.js
